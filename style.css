@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background: #48c5ce;
+    color: white;
+    text-align: center;
+}
+
+.title{
+    font-size: 26px;
+    padding: 10px;
+}
+
+section{
+    padding: 20px;
+    background-image: url("images/people.jpg");
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form{
+    background: #ffffffbb;
+    width: 220px;
+    height: 340px;
+    padding: 15px;
+    float:right;
+}
+
+#font1{
+    font-size: 14px;
+}
+
+#font2{
+    font-size: 14px;
+}
+
+.box{
+    padding: 7px;
+    margin: 5px;
+    width: 87%;
+    border: none;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.box2{
+    padding: 7px;
+    margin: 5px;
+    border: none;
+    width: 95%;
+    box-sizing: border-box;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: 50%;
+}
+
+#style_box2{
+    background: #48c5ce;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.bord{
+    margin: auto;
+    width: 400px;
+    height: 270px;
+    margin: auto;
+}
+
+footer{
+    background: gray;
+    padding: 30px;
+    background: #202121;
+}
+
+.text{
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+img{
+    float: left;
+}
+
+p{
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 500px){
+    .form{
+      float: none;
+      margin: auto;
+      width: 90%;
+      height: 90%;
+    }
+}
